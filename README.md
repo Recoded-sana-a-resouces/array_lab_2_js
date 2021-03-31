@@ -1,26 +1,21 @@
-# Arrays lab
-
+# Arrays searching lab
+Check if an array includes a string.
 ## Overview
-Use the following array to do the requirements 
-<code>[
-  {id:1,name:"Asma",finishedLessons:99,currentStudent:true},
-  {id:2,name:"Sondos",finishedLessons:87,currentStudent:true},
-  {id:3,name:"Arhab",finishedLessons:105,currentStudent:true},
-  {id:4,name:"Basil",finishedLessons:117,currentStudent:true},
-  {id:5,name:"Osamah",finishedLessons:89,currentStudent:true},
-  {id:6,name:"Firas",finishedLessons:223,currentStudent:false}
-  {id:7,name:"Ayman",finishedLessons:223,currentStudent:false}
-  {id:7,name:"Heba",finishedLessons:223,currentStudent:false}
-  ]</code>
+Make a function called `findStringInArray(array, itemToFind)` that looks at all entries in an array and compares it to a string one by one. If the string is found then it prints a message that says the string has been found. 
 
-### Requirements
+Example
+```js
+let array = ["Pheobe", "Chandler", "Ross", "Monica", "Rachel"];
+findStringInArray(array, "Chandler")
+// Output in console => Found Chandler, its postion is 1
+```
+
+## Requirements
 Go over the given array and do the following:
-1. Print names of all students.
-2. Find all students who have finished more than 100 lessons.
-3. Find all students who aren't current students.
-4. Calculate the total finished lessons of all students combined.
-5. Create a new array by taking all elements and adding "baralas" to their end. Example <code>(["Apple","Banana","Watermelon"] => ["Apple baralas","Banana baralas","Watermelon baralas"])</code>
-
+1. Go over all the items in the array and compare them to the passed string
+2. If the passed has been found then print "Found _{item that was searched}_, its position is _{its index}_
+3. If it didn't find it, it says item has not been found.
+4. This should work with any strings array! 
 
 
 Good luck :D 
