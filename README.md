@@ -5,7 +5,7 @@ Make a function called `findStringInArray(array, itemToFind)` that looks at all 
 
 Example
 ```js
-let array = ["Pheobe", "Chandler", "Ross", "Monica", "Rachel"];
+let array = ["Pheobe", "Chandler", "Ross", "Monica", "Rachel", "Joey"];
 findStringInArray(array, "Chandler")
 // Output in console => Found Chandler, its postion is 1
 ```
